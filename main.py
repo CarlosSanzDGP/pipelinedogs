@@ -26,3 +26,6 @@ data = pd.read_csv('OUTPUT/data.csv')
 
 #ni puta idea de lo q estoy haciendo
 #creo que aqui tengo que poner las funciones que vayan al dfclean y me devuelvan los datos que quiero utilizando pandas
+
+# ojo. De Ras. si la api te devuelve una foto, mira cómo te la devuelve (será un array de numpy seguramente) 
+# y es fácil pasarla a imagen igual necesitas la librería pillow (ahí te dejo una pista)=
